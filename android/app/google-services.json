@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "461820418345",
+    "firebase_url": "https://godrich-34f6b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "godrich-34f6b",
+    "storage_bucket": "godrich-34f6b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461820418345:android:6a852d32e1e46ae75e7f38",
+        "android_client_info": {
+          "package_name": "godrich.live"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8MWMAMby25JaFW8CzNZrmzd3s-IiSB7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
