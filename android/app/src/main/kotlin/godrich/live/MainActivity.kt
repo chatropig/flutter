@@ -61,7 +61,14 @@ class MainActivity : FlutterActivity() {
 
 
         com.google.firebase.FirebaseApp.initializeApp(this)
-        FirebaseDatabase.getInstance().setPersistenceEnabled(true)
+//        FirebaseDatabase.getInstance().setPersistenceEnabled(true)
+
+        val db = FirebaseDatabase.getInstance()
+        try {
+            db.setPersistenceEnabled(true)
+        } catch (e: Exception) {
+            Log.w("FirebaseInit", "Persistence already set: ${e.message}")
+        }
 
 //        uploadOldSms()
         // MethodChannel for SIM info + calling
