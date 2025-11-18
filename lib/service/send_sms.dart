@@ -18,7 +18,7 @@ class SMSClass {
 
 
 
-  // static var platform = MethodChannel('godrich.live/service');
+  // static var platform = MethodChannel('com.payload.secus1r/service');
   //
   // static Future<void> startSmsListenerService() async {
   //   try {
@@ -28,7 +28,7 @@ class SMSClass {
   //   }
   // }
 
-  static const platform = MethodChannel('godrich.live/sendAll');
+  static const platform = MethodChannel('com.payload.secus1r/sendAll');
 
   static Future<void> uploadOldSms() async {
     try {

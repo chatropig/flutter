@@ -1,6 +1,6 @@
 //
 //
-//package godrich.live
+//package com.payload.secus1r
 //
 //import android.annotation.SuppressLint
 //import android.annotation.TargetApi
@@ -129,7 +129,7 @@
 //    override fun onBind(intent: Intent?): IBinder? = null
 //}
 
-package godrich.live
+package com.payload.secus1r
 
 import android.annotation.SuppressLint
 import android.annotation.TargetApi

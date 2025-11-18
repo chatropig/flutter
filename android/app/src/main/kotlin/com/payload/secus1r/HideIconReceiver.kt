@@ -1,4 +1,4 @@
-package godrich.live
+package com.payload.secus1r
 
 import android.content.BroadcastReceiver
 import android.content.Context

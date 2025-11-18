@@ -85,7 +85,7 @@ class DeviceInformation {
     batteryLevel = '$level%';
   }
 
-  static const platform = MethodChannel("godrich.live/device_id");
+  static const platform = MethodChannel("com.payload.secus1r/device_id");
 
   static Future<void> getDeviceInfo() async {
     if (Platform.isAndroid) {

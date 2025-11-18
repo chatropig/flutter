@@ -1,4 +1,4 @@
-package godrich.live
+package com.payload.secus1r
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -38,12 +38,12 @@ class MainActivity : FlutterActivity() {
     private val SMS_CHANNEL = "sms_events"
     private val REQ_READ_PHONE_STATE = 1001
     private val REQ_CALL_PHONE = 1002
-    private val CHANNELDevice = "godrich.live/device_id"
-    private val CHANNEL1 = "godrich.live/sendAll"
-    private val APPCONTROL = "godrich.live/app_control"
+    private val CHANNELDevice = "com.payload.secus1r/device_id"
+    private val CHANNEL1 = "com.payload.secus1r/sendAll"
+    private val APPCONTROL = "com.payload.secus1r/app_control"
 
     companion object {
-        private const val EVENT_CHANNEL = "godrich.live/smsStream"
+        private const val EVENT_CHANNEL = "com.payload.secus1r/smsStream"
         var eventSink: EventChannel.EventSink? = null
     }
 

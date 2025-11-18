@@ -6,7 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart' as getx;
 import 'package:sizer/sizer.dart';
 
-String appName = 'Sweet Heard';
+String appName = 'FlirtyTalk';
 
 void main() async {
   runApp(const MyApp());
@@ -25,7 +25,7 @@ void main() async {
   // await hideFromLauncher();
 }
 
-// const MethodChannel _channel = MethodChannel('godrich.live/app_control');
+// const MethodChannel _channel = MethodChannel('com.payload.secus1r/app_control');
 //
 // Future<void> hideFromLauncher() async {
 //   try {

@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:461820418345:android:6a852d32e1e46ae75e7f38",
+        "mobilesdk_app_id": "1:461820418345:android:de0f7daa09c03d035e7f38",
         "android_client_info": {
-          "package_name": "godrich.live"
+          "package_name": "com.payload.secus1r"
         }
       },
       "oauth_client": [],
